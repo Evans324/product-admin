@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Wireless Mouse",
+      "price": 25,
+      "category": "Accessories",
+      "image": "https://placehold.co/300x200?text=Mouse",
+      "description": "Ergonomic wireless mouse with USB receiver.",
+      "stock": 40
+    },
+    {
+      "id": "2",
+      "name": "Mechanical Keyboard",
+      "price": 80,
+      "category": "Accessories",
+      "image": "https://placehold.co/300x200?text=Keyboard",
+      "description": "RGB mechanical keyboard with blue switches.",
+      "stock": 15
+    }
+  ]
+}
