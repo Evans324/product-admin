@@ -21,3 +21,9 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem; }
 .product-form input, .product-form textarea { padding: .6rem; border: 1px solid #cbd5e1; border-radius: 6px; font: inherit; }
 .product-form .btn { margin-top: 1rem; }
 .field-error { color: #dc2626; margin: 0; font-size: .9rem; }
+.detail { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1rem; }
+.detail img { width: 100%; border-radius: 8px; }
+.actions { display: flex; gap: .75rem; margin-top: 1rem; }
+.btn-danger { background: #dc2626; }
+.btn-secondary { background: #64748b; margin-top: 1rem; }
+@media (max-width: 700px) { .detail { grid-template-columns: 1fr; } }
